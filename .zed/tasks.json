@@ -1,0 +1,16 @@
+[
+  {
+    "label": "Run gnome-shell (wayland)",
+    "command": "dbus-run-session -- gnome-shell --nested --wayland",
+    "shell": "system",
+    "reveal": "never",
+    "hide": "never"
+  },
+  {
+    "label": "Compile Schemas",
+    "command": "glib-compile-schemas schemas/",
+    "shell": "system",
+    "reveal": "always",
+    "hide": "on_success"
+  }
+]
