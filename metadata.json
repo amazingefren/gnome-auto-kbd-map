@@ -1,0 +1,7 @@
+{
+  "name": "Auto X11 Kbd Switcher",
+  "description": "Automatically change X11 Keyboard Map on Window Rule Detections",
+  "uuid": "gnome-auto-kbd-map@amazingefren.com",
+  "shell-version": ["48"],
+  "gettext-domain": "gnome-auto-kbd-map@amazingefren.com"
+}
